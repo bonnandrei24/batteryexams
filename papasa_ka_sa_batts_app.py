@@ -7,7 +7,7 @@ st.markdown(
     <style>
         .big-text {
             font-size: 2vw;
-            color: #00ff00;
+            color: #1A2B4C;
             text-align: center;
         }
         body {
