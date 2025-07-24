@@ -6,7 +6,7 @@ st.markdown(
     '''
     <style>
         .big-text {
-            font-size: 5vw;
+            font-size: 2vw;
             color: #00ff00;
             text-align: center;
         }
@@ -18,5 +18,5 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-for _ in range(100):
-    st.markdown('<div class="big-text">Papasa ka sa Batts</div>', unsafe_allow_html=True)
+for i in range(1, 1665):
+    st.markdown(f'<div class="big-text">{i}. Papasa ka sa Batts</div>', unsafe_allow_html=True)
